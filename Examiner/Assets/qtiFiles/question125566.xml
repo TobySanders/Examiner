@@ -1,0 +1,23 @@
+<test>
+   <assessmentItem adaptive="false" identifier="8818:125566" timeDependent="false" title="question1">
+	  <responseDeclaration baseType="identifier" cardinality="single" identifier="RESPONSE">
+		  <correctResponse/>
+	  </responseDeclaration>
+	  <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE">
+		  <defaultValue><value>0.0</value></defaultValue>
+	  </outcomeDeclaration>
+	  <itemBody>
+		  <p>
+			  Which degree are you taking: (BSc, with foundation year, with industrial experience or year abroad, or Meng) or postgraduate MSc
+		  </p>
+		  <choiceInteraction maxChoices="1" responseIdentifier="RESPONSE" shuffle="false">
+			  <simpleChoice identifier="Choice1_125566">Undergraduate with Foundation Year (BSc with pre-certificate stage) [4 year]</simpleChoice>
+			  <simpleChoice identifier="Choice2_125566">Undergraduate (UG) BSc (Bachelors)&amp;nbsp;[3 year]</simpleChoice>
+			  <simpleChoice identifier="Choice3_125566">Undergraduate (UG) BSc with year in industry or abroad [4 year]</simpleChoice>
+			  <simpleChoice identifier="Choice4_125566">Undergraduate (UG) MEng (Undergraduate Masters) [4 year]</simpleChoice>
+			  <simpleChoice identifier="Choice5_125566">Postgraduate Taught (PGT) MSc [Masters]</simpleChoice>
+		  </choiceInteraction>
+	  </itemBody>
+    <responseProcessing/>
+  </assessmentItem>
+</test>

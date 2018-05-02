@@ -1,0 +1,18 @@
+<test>
+  <assessmentItem adaptive="false" identifier="8818:125571" timeDependent="false" title="question5">
+	  <responseDeclaration baseType="identifier" cardinality="single" identifier="RESPONSE">
+		  <correctResponse><value>ChoiceA_125571</value></correctResponse>
+	  </responseDeclaration>
+	  <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE"><defaultValue><value>0.0</value></defaultValue></outcomeDeclaration>
+	  <itemBody>
+		  <p>
+			  Did you attend one of the departmental admissions open days following your application
+		  </p>
+		  <choiceInteraction maxChoices="1" responseIdentifier="RESPONSE" shuffle="false">
+		  <simpleChoice identifier="ChoiceA_125571">True</simpleChoice>
+		  <simpleChoice identifier="ChoiceB_125571">False</simpleChoice>
+		  </choiceInteraction>
+	  </itemBody>
+    <responseProcessing/>
+  </assessmentItem>
+</test>

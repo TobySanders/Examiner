@@ -1,0 +1,29 @@
+<test>
+  <assessmentItem adaptive="false" identifier="8818:125567" timeDependent="false" title="question2">
+	  <responseDeclaration baseType="identifier" cardinality="single" identifier="RESPONSE">
+		  <correctResponse/>
+	  </responseDeclaration>
+	  <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE">
+		  <defaultValue><value>0.0</value></defaultValue>
+	  </outcomeDeclaration>
+	  <itemBody>
+		  <p>
+			  Where did you hear or read about Computer Science (whichever variant) at Hull - you may select multiple choices.
+		  </p>
+		  <choiceInteraction maxChoices="0" responseIdentifier="RESPONSE" shuffle="false">
+		  <simpleChoice identifier="Choice1_125567">UCAS website</simpleChoice>
+		  <simpleChoice identifier="Choice2_125567">University of Hull Website</simpleChoice>
+		  <simpleChoice identifier="Choice3_125567">Department of Computer Science Website</simpleChoice>
+		  <simpleChoice identifier="Choice4_125567">University of Hull printed prospectus</simpleChoice>
+		  <simpleChoice identifier="Choice5_125567">General university of Hull Open Day</simpleChoice>
+		  <simpleChoice identifier="Choice6_125567">Family or friends</simpleChoice>
+		  <simpleChoice identifier="Choice7_125567">Teacher or career advisor</simpleChoice>
+		  <simpleChoice identifier="Choice8_125567">University open day</simpleChoice>
+		  <simpleChoice identifier="Choice9_125567">Google</simpleChoice>
+		  <simpleChoice identifier="Choice10_125567">Other search engine or facility</simpleChoice>
+		  <simpleChoice identifier="Choice11_125567">Other source not listed above.</simpleChoice>
+		  </choiceInteraction>
+	  </itemBody>
+    <responseProcessing/>
+  </assessmentItem>
+</test>

@@ -1,0 +1,32 @@
+﻿<test>
+  <assessmentItem identifier="choice" title="Colour Test" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+      <correctResponse>
+        <value>ChoiceA</value>
+      </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+      <defaultValue>
+        <value>0</value>
+      </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+      <p>Look at the two images below</p>
+      <p>
+        <img alt="RED" src="Red"/>
+      </p>
+      <p>
+        <img alt="BLUE" src="Blue"/>
+      </p>
+      <choiceInteraction responseIdentifier="RESPONSE" shuffle="false" maxChoices="2">
+        <prompt>Which two of these statements are true?</prompt>
+        <simpleChoice identifier="ChoiceA">Red and blue mixed makes purple</simpleChoice>
+        <simpleChoice identifier="ChoiceB">Potatoes are known for their terrotorial behaviour</simpleChoice>
+        <simpleChoice identifier="ChoiceC">Cold Potatoes are hot</simpleChoice>
+        <simpleChoice identifier="ChoiceD">The Top Image is red</simpleChoice>
+        <simpleChoice identifier="ChoiceE">The bottom Image is green</simpleChoice>
+      </choiceInteraction>
+    </itemBody>
+    <responseProcessing/>
+  </assessmentItem>
+</test>
